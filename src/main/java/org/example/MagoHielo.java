@@ -6,6 +6,7 @@ public class MagoHielo extends Mago{
 
     public MagoHielo(String nombre){
         super(nombre, 110, 75, 25, "Hielo");
+
         this.turnoCongelado = 0;
     }
 
