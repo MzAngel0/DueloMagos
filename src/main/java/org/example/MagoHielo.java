@@ -5,7 +5,7 @@ public class MagoHielo extends Mago{
     private int turnoCongelado;
 
     public MagoHielo(String nombre){
-        super(nombre, 110, 75, 25, "Hielo");
+        super(nombre, 90, 75, 25, "Hielo");
 
         this.turnoCongelado = 0;
     }

@@ -46,9 +46,4 @@ public class Mago {
 
         return vida > 0;
     }
-
-    @Override
-    public String toString() {
-        return nombre + " | Vida: " + vida + " | Mana: " + mana;
-    }
 }

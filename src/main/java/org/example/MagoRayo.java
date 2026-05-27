@@ -4,7 +4,7 @@ public class MagoRayo extends Mago{
     private double probCritico;
 
     public MagoRayo(String nombre){
-        super(nombre,  90, 90, 35, "Rayo");
+        super(nombre,  150, 90, 35, "Rayo");
         this.probCritico = 0.3; // Probabilidad del 30%
     }
 
@@ -23,7 +23,7 @@ public class MagoRayo extends Mago{
         rival.setVida(rival.getVida() - dano);
         String tipo;
         if(dano == 70){
-            tipo = "CRITICO!";
+            tipo = " CRITICO!";
         }else{
             tipo = "";
         }
